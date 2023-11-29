@@ -1,0 +1,364 @@
+C:\Users\Amina\source\repos\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Amina\source\repos\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Amina\source\repos\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Amina\source\repos\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Amina\source\repos\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amina\source\repos\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Amina\source\repos\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Amina\source\repos\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Amina\source\repos\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Amina\source\repos\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Amina\source\repos\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Amina\source\repos\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\Amina\source\repos\squeletteExamen2023\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Amina\source\repos\squeletteExamen2023\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Amina\source\repos\squeletteExamen2023\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Amina\source\repos\squeletteExamen2023\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Amina\source\repos\squeletteExamen2023\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amina\source\repos\squeletteExamen2023\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Amina\source\repos\squeletteExamen2023\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Amina\source\repos\squeletteExamen2023\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Amina\source\repos\squeletteExamen2023\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Amina\source\repos\squeletteExamen2023\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Amina\source\repos\squeletteExamen2023\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Amina\source\repos\squeletteExamen2023\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\Amina\Downloads\SqueletteExamen2023 (1)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Amina\Downloads\SqueletteExamen2023 (1)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Amina\Downloads\SqueletteExamen2023 (1)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Amina\Downloads\SqueletteExamen2023 (1)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Amina\Downloads\SqueletteExamen2023 (1)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amina\Downloads\SqueletteExamen2023 (1)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Amina\Downloads\SqueletteExamen2023 (1)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Amina\Downloads\SqueletteExamen2023 (1)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Amina\Downloads\SqueletteExamen2023 (1)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Amina\Downloads\SqueletteExamen2023 (1)\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Amina\Downloads\SqueletteExamen2023 (1)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Amina\Downloads\SqueletteExamen2023 (1)\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\SOULAIMA\Documents\4\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\SOULAIMA\Documents\4\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SOULAIMA\Documents\4\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\SOULAIMA\Documents\4\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\SOULAIMA\Documents\4\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\SOULAIMA\Documents\4\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\SOULAIMA\Documents\4\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\SOULAIMA\Documents\4\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\SOULAIMA\Documents\4\.net\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\SOULAIMA\Documents\4\.net\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\SOULAIMA\Documents\4\.net\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\SOULAIMA\Documents\4\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (18)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\New folder (18)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (18)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (18)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\New folder (18)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\New folder (18)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (18)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\New folder (18)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (18)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (18)\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (18)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (18)\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (18)\New folder\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\New folder (18)\New folder\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (18)\New folder\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (18)\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\New folder (18)\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\New folder (18)\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (18)\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\New folder (18)\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (18)\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (18)\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (18)\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (18)\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\.net\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\.net\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\RIDER-3\Desktop\.net\New folder\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\RIDER-3\Desktop\New folder (21)\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\46\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\RIDER-3\Desktop\New folder (22)\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\31aug\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\RIDER-3\Desktop\New folder (23)\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\RIDER-3\Desktop\New folder (24)\9-2.1\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-3\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\RIDER-3\Desktop\New folder (25)\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-6\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\RIDER-3\Desktop\New folder (28)\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-11\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\RIDER-3\Desktop\New folder (29)\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-12\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\pres\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\9-14\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\RIDER-3\Desktop\.net\latest projet\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\Haroun\Desktop\.Net\bfpme\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.deps.json
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.runtimeconfig.json
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\bin\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\refint\ApplicationCore.dll
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.pdb
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ApplicationCore.genruntimeconfig.cache
+C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\ApplicationCore\obj\Debug\net6.0\ref\ApplicationCore.dll

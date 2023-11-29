@@ -1,0 +1,389 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UI.Web
+build_property.RootNamespace = UI.Web
+build_property.ProjectDir = C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\UI.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\RIDER-3\Desktop\.net\Last\Examen2023\UI.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Absence/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJzZW5jZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Absence/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJzZW5jZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Absence/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJzZW5jZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Absence/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJzZW5jZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/AppRoles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/AppRoles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwUm9sZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/AppRoles/GrantAuthorization.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwUm9sZXNcR3JhbnRBdXRob3JpemF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/AppRoles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/AppRoles/ManagePermissions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwUm9sZXNcTWFuYWdlUGVybWlzc2lvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/AppRoles/RevokeAuthorization.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwUm9sZXNcUmV2b2tlQXV0aG9yaXphdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Attestation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZXN0YXRpb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Attestation/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZXN0YXRpb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Attestation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZXN0YXRpb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Attestation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZXN0YXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Attestation/IndexFront.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZXN0YXRpb25cSW5kZXhGcm9udC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Conges/Configure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ2VzXENvbmZpZ3VyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Conges/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Conges/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Conges/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Conges/EditMyConge.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ2VzXEVkaXRNeUNvbmdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Conges/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Conges/MesConges.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ2VzXE1lc0Nvbmdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Conges/PendingConges.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ2VzXFBlbmRpbmdDb25nZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/ContreVisite/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJlVmlzaXRlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/ContreVisite/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJlVmlzaXRlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/ContreVisite/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJlVmlzaXRlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/ContreVisite/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJlVmlzaXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/ContreVisite/MesContreVisites.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udHJlVmlzaXRlXE1lc0NvbnRyZVZpc2l0ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/FonctionEmployee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9uY3Rpb25FbXBsb3llZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/FonctionEmployee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9uY3Rpb25FbXBsb3llZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/FonctionEmployee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9uY3Rpb25FbXBsb3llZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/FonctionEmployee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9uY3Rpb25FbXBsb3llZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Genre/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Genre/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Genre/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Genre/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/GestionDocument/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkRvY3VtZW50XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/GestionDocument/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkRvY3VtZW50XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/GestionDocument/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkRvY3VtZW50XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/GestionDocument/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkRvY3VtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Mission/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlzc2lvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Mission/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlzc2lvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Mission/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlzc2lvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Mission/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlzc2lvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Section/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Section/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Section/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Section/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Shared/_LoginInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Situation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0dWF0aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Situation/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0dWF0aW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Situation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0dWF0aW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Situation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0dWF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/SoldeConges/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sZGVDb25nZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/SoldeConges/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sZGVDb25nZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/SoldeConges/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sZGVDb25nZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/SoldeConges/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29sZGVDb25nZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeAttestation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUF0dGVzdGF0aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeAttestation/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUF0dGVzdGF0aW9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeAttestation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUF0dGVzdGF0aW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeAttestation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUF0dGVzdGF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeConfirmation/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUNvbmZpcm1hdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeConfirmation/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUNvbmZpcm1hdGlvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeConfirmation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUNvbmZpcm1hdGlvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeConfirmation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUNvbmZpcm1hdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeConges/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUNvbmdlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeConges/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUNvbmdlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeConges/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUNvbmdlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeConges/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUNvbmdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeJustificatif/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUp1c3RpZmljYXRpZlxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeJustificatif/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUp1c3RpZmljYXRpZlxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeJustificatif/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUp1c3RpZmljYXRpZlxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/TypeJustificatif/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUp1c3RpZmljYXRpZlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/RIDER-3/Desktop/.net/Last/Examen2023/UI.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-shov4u0sfk

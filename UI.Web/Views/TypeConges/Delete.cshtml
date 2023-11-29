@@ -1,0 +1,41 @@
+﻿@model ApplicationCore.Domain.TypeConges
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Supprimer TypeConges</h1>
+
+
+<div>
+   
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TypeCongesId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TypeCongesId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Designation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Designation)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nbMaximumdeJour)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nbMaximumdeJour)
+        </dd>
+      
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">
+            Retour à la liste
+        </a>
+    </form>
+</div>

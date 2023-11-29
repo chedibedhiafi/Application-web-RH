@@ -1,0 +1,513 @@
+﻿@page
+@inject ApplicationCore.Interfaces.IServiceEmployees se
+@inject ApplicationCore.Interfaces.IServiceFonctionEmployee sfe
+@inject ApplicationCore.Interfaces.IServiceSectioncs sc
+
+@{
+    Layout = null;
+    bool shouldHideDiv = true;
+    bool shouldHideDivAdmin = true;
+    bool shouldHideHR = true;
+
+    string mail = User.Identity.Name;
+    var employee = se.GetMany().FirstOrDefault(e => e.Email == mail);
+
+    if (employee != null)
+    {
+        var fonction = sfe.GetById(employee.FonctionEmployeeFk);
+        if (fonction.Fonction == "Responsable")
+        {
+            shouldHideDiv = false;
+        }
+    }
+    if (employee != null)
+    {
+        var fonction = sfe.GetById(employee.FonctionEmployeeFk);
+        var department = employee.Section.NomSection;
+        if (fonction.Fonction == "Responsable" && department=="Ressources Humaines")
+        {
+            shouldHideHR = false;
+        }
+    }
+
+    if (User.IsInRole("Administrateur")) // Check if user is in the "Administrateur" role
+    {
+        shouldHideDivAdmin = false;
+    }
+}
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>UNIVERS-MED - Acceuil</title>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+        min-height: 100vh;
+        width: 100%;
+        font-size: 16px;
+        background: #eee;
+        color: #777;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .info.description span {
+        display: block; /* Make each link a block element */
+        font-size: 14px; /* Adjust the font size to make the links smaller */
+        margin-bottom: 0px; /* Add some spacing between links */
+        }
+
+        .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        }
+
+        .links-container {
+        max-height: 200px; /* Set a maximum height for the scrolling area */
+        overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
+        margin-top: 10px; /* Add some spacing between the separator and links */
+        }
+
+        .item-container {
+        position: relative;
+        margin: 24px;
+        width: 250px;
+        height: 395px;
+        overflow: hidden;
+        background-color: #fff;
+        box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+        }
+
+        .img-container,
+        .body-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        }
+
+        .img-container img {
+        width: 100%;
+        }
+
+        .body-container {
+        position: relative;
+        }
+
+        .overlay {
+        position: relative;
+        width: 100%;
+        height: 450px;
+        background-color: rgba(24, 83, 122, 0.6);
+        opacity: 0;
+        transition: height linear 0.4s, opacity linear 0.2s;
+        }
+
+        .item-container:hover .overlay {
+        opacity: 1;
+        height: 150px;
+        }
+
+        .event-info {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        }
+
+        .title,
+        .price {
+        color: #18537a;
+        font-size: 1.5em;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin: 12px;
+        }
+
+        .info {
+        letter-spacing: 0.5px;
+        margin-bottom: 6px;
+        }
+
+        .separator {
+        width: 20%;
+        height: 6px;
+        background-color: #17537a;
+        margin-bottom: 16px;
+        }
+
+        .additional-info {
+        border-top: 1px solid #bbb;
+        margin-top: 12px;
+        padding: 28px;
+        padding-bottom: 0;
+        }
+
+        .additional-info .info {
+        font-size: 0.9em;
+        margin-bottom: 20px;
+        text-align: center;
+        }
+
+        .info i {
+        color: #18537a;
+        font-size: 1.1em;
+        margin-right: 4px;
+        }
+
+        .info span {
+        color: #18537a;
+        font-weight: bolder;
+        }
+
+        .action {
+        color: #fff;
+        border: 3px solid #fff;
+        background-color: transparent;
+        position: absolute;
+        top: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+        outline: none;
+        cursor: pointer;
+        padding: 12px;
+        text-transform: uppercase;
+        font-size: 1.3em;
+        font-weight: bold;
+        letter-spacing: 2px;
+        transition: background-color 0.4s, top 0.4s;
+        }
+
+        .item-container:hover .action {
+        top: 50px;
+        }
+
+        .action:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .scrollable-links {
+            max-height: 150px; /* Set a maximum height for scrolling */
+            overflow-y: auto; /* Enable vertical scrolling when content exceeds the height */
+        }
+
+        div.title-container {
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 50px;
+        }
+
+        /* Style the title */
+        h1.title {
+            font-size: 2em;
+        }
+
+
+
+    </style>
+</head>
+<body>
+  
+
+        <div class="container">
+
+        @if (!shouldHideDivAdmin)
+        {
+            <div class="item-container">
+                <div class="img-container">
+                    <img src="~/employee.png" alt="Event image">
+                    <p class="title" style="text-align: center;">Employés</p>
+                </div>
+                <div class="body-container">
+                    <div class="overlay"></div>
+
+                    <div class="event-info">
+                        <p class="title">Employé</p>
+                        <div class="separator"></div>
+                        <p class="info"></p>
+                        <p class="price"></p>
+
+                        <div class="additional-info">
+                            <p class="info">
+                            </p>
+                            <p class="info">
+                            </p>
+
+                            <p class="info description">
+                                <a class="action" href="/Employees/Index">Afficher</a>
+                                Gerer les Listes Des Employées
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+
+
+
+
+
+
+        <div class="item-container">
+            <div class="img-container">
+                <img src="~/Conges.png" alt="Event image">
+                <p class="title" style="text-align: center;">Les Congés</p>
+            </div>
+
+            <div class="body-container">
+                <div class="overlay"></div>
+
+                <div class="event-info">
+                    <p class="title">Les Congés</p>
+                    <div class="separator"></div>
+
+                    <div class="links-container">
+                        <p class="info description">
+                            <span><a class="title" href="/Conges/MesConges">-Mes congés</a></span>
+
+                            @if (!shouldHideDiv)
+                            {
+                                <span> <a class="title" href="/Conges/PendingConges">-Les congés de mon département</a></span>
+                            }
+                            @if (!shouldHideDivAdmin)
+                            {
+                                <span> <a class="title" href="/Conges/Index">-Tous les congés</a></span>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </div>
+
+
+            <div class="item-container">
+                <div class="img-container">
+                    <img src="~/attestation.png" alt="Event image">
+                    <p class="title" style="text-align: center;">Attestation</p>
+                </div>
+
+                <div class="body-container">
+                    <div class="overlay"></div>
+
+                    <div class="event-info">
+                        <p class="title">Attestation</p>
+                        <div class="separator"></div>
+                        <p class="info"></p>
+                        <p class="price"></p>
+
+                        <div class="additional-info">
+                            <p class="info">
+
+                            </p>
+                            <p class="info">
+
+                            </p>
+
+                        @if (!shouldHideDiv)
+                        {
+                            <p class="info description">
+                                <a class="action" href="/Attestation/Index">Afficher</a>
+                                Gerer Les Listes Des Attestation
+                            </p>
+                        }
+                        else
+                        {
+                            <p class="info description">
+                                <a class="action" href="/Attestation/IndexFront">Afficher</a>
+                                Gerer Les Listes Des Attestation
+                            </p>
+                        }
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="item-container">
+                <div class="img-container">
+                    <img src="~/ContreVisite.png" alt="Event image">
+                    <p class="title" style="text-align: center;">Contre Visite</p>
+                </div>
+                <div class="body-container">
+                    <div class="overlay"></div>
+
+                    <div class="event-info">
+                        <p class="title">Gestion des Contres Visites</p>
+                        <div class="separator"></div>
+
+                        <div class="links-container">
+
+                            <p class="info description">
+                                <span><a class="title" href="/ContreVisite/MesContreVisites">-Mes contres visites</a></span>
+                            @if (!shouldHideHR)
+                            {
+                                <span> <a class="title" href="/ContreVisite/Index">-Toutes les contres visites</a></span>  
+                            }
+        </p>
+        </div>
+        </div>
+        </div>
+
+                <div class="body-container">
+                    <div class="overlay"></div>
+
+                    <div class="event-info">
+                        <p class="title">ContreVisite</p>
+                        <div class="separator"></div>
+                        <p class="info"></p>
+                        <p class="price"></p>
+
+                        <div class="additional-info">
+                            <p class="info">
+
+                            </p>
+                            <p class="info">
+
+                            </p>
+
+                            <p class="info description">
+                                <a class="action" href="/ContreVisite/MesContreVisites">Afficher</a>
+                                Gerer Les Listes Des Contre Visite
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="item-container">
+                <div class="img-container">
+                    <img src="~/gestiondocument.png" alt="Event image">
+                    <p class="title" style="text-align: center;">Gestion Document</p>
+                </div>
+
+                <div class="body-container">
+                    <div class="overlay"></div>
+
+                    <div class="event-info">
+                        <p class="title">Gestion Document</p>
+                        <div class="separator"></div>
+                        <p class="info"></p>
+                        <p class="price"></p>
+
+                        <div class="additional-info">
+                            <p class="info">
+
+                            </p>
+                            <p class="info">
+
+                            </p>
+
+                            <p class="info description">
+                                <a class="action" href="/GestionDocument/Index">Afficher</a>
+                                Gerer Les Gestion Des Document
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="item-container">
+                <div class="img-container">
+                    <img src="~/missionnn.png" alt="Event image">
+                    <p class="title" style="text-align: center;">Mission</p>
+                </div>
+
+                <div class="body-container">
+                    <div class="overlay"></div>
+
+                    <div class="event-info">
+                        <p class="title">Mission</p>
+                        <div class="separator"></div>
+                        <p class="info"></p>
+                        <p class="price"></p>
+
+                        <div class="additional-info">
+                            <p class="info">
+
+                            </p>
+                            <p class="info">
+
+                            </p>
+
+                            <p class="info description">
+                                <a class="action" href="/Mission/Index">Afficher</a>
+                                Gerer Les Listes Des Missions
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+ @if (!shouldHideDiv)
+{
+    <div class="item-container">
+        <div class="img-container">
+            <img src="~/Referentiel.png" alt="Event image">
+            <p class="title" style="text-align: center;">Réferentiel Unique</p>
+        </div>
+        <div class="body-container">
+            <div class="overlay"></div>
+
+            <div class="event-info">
+                <p class="title">Referentiel Unique</p>
+                <div class="separator"></div>
+
+                <div class="links-container">
+                            <div class="scrollable-links">
+                    <p class="info description">
+                        <span><a class="title" href="/AppRoles/Index">Role</a></span>
+                        <span><a class="title" href="/Genre/Index">Genre</a></span>
+                        <span><a class="title" href="/Section/Index">Departement</a></span>
+                        <span><a class="title" href="/Situation/Index">Situation</a></span>
+                        <span><a class="title" href="/TypeConges/Index">TypeConges</a></span>
+                        <span><a class="title" href="/TypeConfirmation/Index">TypeConfirmation</a></span>
+                         <span><a class="title" href="/SoldeConges/Index">SoldesConges</a></span>
+                        <span><a class="title" href="/TypeJustificatif/Index">TypeJustificatif</a></span>
+                        <span><a class="title" href="/FonctionEmployee/Index">Fonction d'employé</a></span>
+                         <span><a class="title" href="/TypeAttestation/Index">Type Attestation</a></span>
+                       
+                       
+
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+        </div>
+       
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿<!-- ManagePermissions.cshtml -->
+@{
+    ViewData["Title"] = "Manage Permissions";
+}
+
+<h1>
+    Gérer les autorisations pour le rôle : @ViewData["RoleName"]
+</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label>Sélectionnez les autorisations :</label><br />
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="selectedPermissions" value="Create" id="createPermission">
+            <label class="form-check-label" for="createPermission">Create</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="selectedPermissions" value="Read" id="readPermission">
+            <label class="form-check-label" for="readPermission">Read</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="selectedPermissions" value="Update" id="updatePermission">
+            <label class="form-check-label" for="updatePermission">Update</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="selectedPermissions" value="Delete" id="deletePermission">
+            <label class="form-check-label" for="deletePermission">Delete</label>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">sauvegarder</button>
+</form>

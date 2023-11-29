@@ -1,0 +1,54 @@
+﻿@model ApplicationCore.Domain.Mission
+
+@{
+    ViewData["Title"] = "BFPME360 - Créer une nouvelle mission";
+}
+
+<h4>
+    Créer une nouvelle mission
+</h4>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">
+                    Description<span class="text-danger">*</span>
+                </label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateDebut" class="control-label">
+                    DateDebut<span class="text-danger">*</span>
+                </label>
+                <input asp-for="DateDebut" class="form-control" />
+                <span asp-validation-for="DateDebut" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateFin" class="control-label">
+                    DateFin<span class="text-danger">*</span>
+                </label>
+                <input asp-for="DateFin" class="form-control" />
+                <span asp-validation-for="DateFin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Créer" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">
+        Retour à la liste
+    </a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

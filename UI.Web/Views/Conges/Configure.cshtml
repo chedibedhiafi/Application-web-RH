@@ -1,0 +1,148 @@
+﻿@model ApplicationCore.Domain.Conges
+@inject ApplicationCore.Interfaces.IServiceTypeConfirmation stc
+@inject ApplicationCore.Interfaces.IServiceEmployees se
+
+@{
+    ViewData["Title"] = "BFPME360 - Confirmer un congé";
+    string mail = User.Identity.Name;
+    var currentEmployee = se.GetMany().FirstOrDefault(e => e.Email == mail);
+}
+
+<h4>Confirmer le congé de: @Model.Employees.Nom @Model.Employees.Prenom qui a @Model.Employees.CreditConges solde de congé </h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Configure" id="configureForm">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="TypeConfirmationFk" class="control-label"></label>
+                <select asp-for="TypeConfirmationFk" class="form-control" asp-items="ViewBag.TypeConfirmationFk"></select>
+                <span asp-validation-for="TypeConfirmationFk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RemplassePar" class="control-label"></label>
+                <select asp-for="RemplassePar" id="remplasseParDropdown" class="form-control" asp-items="ViewBag.RemplassePar"></select>
+
+                <span asp-validation-for="RemplassePar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="changeDatesCheckbox" />
+                <label for="changeDatesCheckbox">Changer les dates</label>
+            </div>
+
+            <div class="form-group" id="datePickers" style="display: none;">
+                <label for="newDateDebut">Nouvelle Date de début:</label>
+                <input type="date" class="form-control" id="newDateDebut" />
+
+                <label for="newDateFin">Nouvelle Date de fin:</label>
+                <input type="date" class="form-control" id="newDateFin" />
+            </div>
+
+            <!-- Add hidden fields for DateDebut and DateFin -->
+            <input type="hidden" asp-for="DateDebut" id="DateDebut" />
+            <input type="hidden" asp-for="DateFin" id="DateFin" />
+
+            <!-- Add a hidden field for the CongesId -->
+            <input type="hidden" asp-for="CongesId" />
+
+            <div class="form-group">
+                <input type="submit" value="Sauvegarder" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    <div class="col-md-8">
+        <!-- Display Conges details here -->
+        <div class="card">
+            <div class="card-header">
+                Conges Details
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">Conges Id:</dt>
+                    <dd class="col-sm-9">@Model.CongesId</dd>
+
+                    <dt class="col-sm-3">Date Debut:</dt>
+                    <dd class="col-sm-9">@Model.DateDebut.ToString("dd/MM")</dd>
+
+                    <dt class="col-sm-3">Date Fin:</dt>
+                    <dd class="col-sm-9">@Model.DateFin.ToString("dd/MM")</dd>
+
+                    <dt class="col-sm-3">Commentaire:</dt>
+                    <dd class="col-sm-9">@Model.Raison</dd>
+
+                    <dt class="col-sm-3">Employé associé:</dt>
+                    <dd class="col-sm-9">@Model.Employees.Nom</dd>
+
+                    <dt class="col-sm-3">Confirmé Par:</dt>
+                    <dd class="col-sm-9">@Model.ConfirmeParEmployee?.Nom</dd>
+
+                    <dt class="col-sm-3">Remplacé Par:</dt>
+                    <dd class="col-sm-9">@Model.RemplasseParEmployee?.Nom</dd>
+
+                    <dt class="col-sm-3">Type du congé:</dt>
+                    <dd class="col-sm-9">@Model.TypeConges.Designation</dd>
+
+                    <dt class="col-sm-3">Type de confirmation:</dt>
+                    <dd class="col-sm-9">@Model.TypeConfirmation.type</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">
+        Retour à la liste
+    </a>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Get the ID of the currently associated employee for the leave request
+            var currentlyAssociatedEmployeeId = @Model.IdEmployees;
+
+            // Find the option element with the currently associated employee's ID and hide it
+            $('#remplasseParDropdown option[value="' + currentlyAssociatedEmployeeId + '"]').hide();
+
+            // Handle checkbox change event
+            $('#changeDatesCheckbox').change(function () {
+                if (this.checked) {
+                    // Show the date pickers if the checkbox is checked
+                    $('#datePickers').show();
+                } else {
+                    // Hide the date pickers if the checkbox is unchecked
+                    $('#datePickers').hide();
+                }
+            });
+
+            // Handle form submission
+            $('#configureForm').submit(function () {
+                // Get the selected employee's ID from the dropdown
+                var selectedEmployeeId = $('#remplasseParDropdown').val();
+
+                // Check if the selected employee is the same as the currently associated employee
+                if (selectedEmployeeId == currentlyAssociatedEmployeeId) {
+                    // Display an error message (you can customize this part)
+                    alert('You cannot choose yourself as Remplasse Par.');
+                    return false; // Prevent form submission
+                }
+
+                // If the checkbox is checked, update the date values
+                if ($('#changeDatesCheckbox').is(':checked')) {
+                    var newDateDebut = $('#newDateDebut').val();
+                    var newDateFin = $('#newDateFin').val();
+
+                    // Set the updated date values in hidden fields for server-side binding
+                    $('#DateDebut').val(newDateDebut);
+                    $('#DateFin').val(newDateFin);
+                }
+
+                // Form is valid, continue with submission
+                return true;
+            });
+        });
+    </script>
+}

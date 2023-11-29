@@ -1,0 +1,38 @@
+﻿@model ApplicationCore.Domain.GestionDocument
+
+@{
+    ViewData["Title"] = "BFPME360 - Supprimer un document";
+}
+
+<h4>Supprimer GestionDocument</h4>
+
+
+<div>
+   
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GestionDocumentId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GestionDocumentId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TypeJustificatifFk)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TypeJustificatif.Document)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AttestationFk)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Attestation.DocumentAttestation)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        <a asp-action="Index">Retour à la liste</a>
+    </form>
+</div>

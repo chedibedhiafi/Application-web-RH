@@ -1,0 +1,63 @@
+﻿@model ApplicationCore.Domain.ContreVisite
+
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Supprimer ContreVisite</h1>
+
+
+<div>
+   
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ContreVisiteId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ContreVisiteId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EffectuerPar)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Employees.Nom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Avis)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Avis)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Details)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Details)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NomDoc)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NomDoc)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Conge.CongesId) 
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Conge.DisplayAttributes) 
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Retour à la liste</a>
+    </form>
+</div>

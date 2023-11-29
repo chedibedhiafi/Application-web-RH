@@ -1,0 +1,108 @@
+﻿@model ApplicationCore.Domain.Conges
+@inject ApplicationCore.Interfaces.IServiceEmployees se
+@inject ApplicationCore.Interfaces.IServiceFonctionEmployee sfe
+@{
+    ViewData["Title"] = "BFPME360 - Créer une nouvelle demande de congé";
+}
+@{
+    bool shouldHideDiv = true;
+    bool shouldHideDivAdmin = true;
+
+    string mail = User.Identity.Name;
+    var employee = se.GetMany().FirstOrDefault(e => e.Email == mail);
+    if (employee == null)
+    {
+        shouldHideDiv = true;
+    }
+    else
+    {
+        var fonction = sfe.GetById(employee.FonctionEmployeeFk);
+        if (fonction.Fonction == "Responsable") { shouldHideDiv = false; }
+        else shouldHideDiv = true;
+    }
+    if (employee == null)
+    {
+        {
+            // Replace "Administrateur" with the actual role name you want to check
+            if (User.IsInRole("Administrateur"))
+            {
+
+                shouldHideDivAdmin = false;
+            }
+        }
+    }
+}
+
+
+<h4>
+    Créer
+    Conges
+</h4>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            
+            <div class="form-group">
+                <input type="hidden" asp-for="IdEmployees" value="@employee.id" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DateDebut" class="control-label">
+                    Date de début<span class="text-danger">*</span>
+                </label>
+                <input asp-for="DateDebut" class="form-control" type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                <span asp-validation-for="DateDebut" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateFin" class="control-label">
+                    Date de fin<span class="text-danger">*</span>
+                </label>
+                <input asp-for="DateFin" class="form-control" type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                <span asp-validation-for="DateFin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TypeConges" class="control-label">
+                    Type du congé<span class="text-danger">*</span>
+                </label>
+                <select asp-for="TypeCongesFk" class="form-control" asp-items="ViewBag.TypeCongesFk"></select>
+                <span asp-validation-for="TypeCongesFk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Raison" class="control-label">
+                  
+                </label>
+                <input asp-for="Raison" class="form-control" />
+                <span asp-validation-for="Raison" class="text-danger"></span>
+            </div>
+            
+            
+         
+                    <div class="form-group">
+                        <input type="submit" value="Créer" class="btn btn-primary" />
+                    </div>
+              
+        </form>
+    </div>
+</div>
+@{
+                if (!shouldHideDiv)
+                {
+        <div>
+            <a asp-action="MesConges">Retour à la liste</a>
+        </div>
+                }
+                else
+                {
+                    <div>
+    <a asp-action="Index">Retour à la liste</a>
+</div>
+                }}
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

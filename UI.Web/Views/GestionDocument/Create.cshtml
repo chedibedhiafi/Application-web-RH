@@ -1,0 +1,43 @@
+﻿@model ApplicationCore.Domain.GestionDocument
+
+@{
+    ViewData["Title"] = "BFPME360 - Créer un nouveau document";
+}
+
+<h4>Créer Gestion Document</h4>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="TypeJustificatif" class="control-label">
+                    TypeJustificatif<span class="text-danger">*</span>
+                </label>
+                <select asp-for="TypeJustificatifFk" class="form-control" asp-items="ViewBag.TypeJustificatifFk"></select>
+                <span asp-validation-for="TypeJustificatifFk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Attestation" class="control-label">
+                    Attestation<span class="text-danger">*</span>
+                </label>
+                <select asp-for="AttestationFk" class="form-control" asp-items="ViewBag.AttestationFk"></select>
+                <span asp-validation-for="AttestationFk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Créer" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Retour à la liste</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

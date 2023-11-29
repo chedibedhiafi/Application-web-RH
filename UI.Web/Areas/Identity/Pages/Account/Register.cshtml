@@ -1,0 +1,108 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Inscription";
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .register-container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .register-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .register-form {
+        margin-bottom: 20px;
+    }
+
+    .register-btn {
+        width: 100%;
+    }
+
+    .image-container {
+        text-align: center;
+    }
+
+    /* Style for the image */
+    .login-image {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+<div class="register-container">
+    <div class="image-container">
+        <img src="~/univers.png" alt="Login Image" class="login-image">
+    </div>
+    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="register-form">
+        <h2 class="register-title">Créer un nouveau compte</h2>
+        <hr />
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="mb-3">
+            <input asp-for="Input.Firstname" class="form-control" autocomplete="Firstname" aria-required="true" placeholder="Prénom">
+            <span asp-validation-for="Input.Firstname" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <input asp-for="Input.Lastname" class="form-control" autocomplete="Lastname" aria-required="true" placeholder="Nom de famille">
+            <span asp-validation-for="Input.Lastname" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="Adresse e-mail">
+            <span asp-validation-for="Input.Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Mot de passe">
+            <span asp-validation-for="Input.Password" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="Confirmer le mot de passe">
+            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+        </div>
+
+        <!-- Add an id to the role div and set its initial visibility to hidden -->
+        <div id="roleSelection" class="mb-3" style="display: none;">
+            <select asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-select" aria-required="true">
+                <option value="Utilisateur">Utilisateur</option>
+            </select>
+            <span asp-validation-for="Input.Role" class="text-danger"></span>
+        </div>
+
+        <button id="registerSubmit" type="submit" class="btn btn-primary register-btn">S'inscrire</button>
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // Show the role selection div when the page loads
+    $(document).ready(function () {
+        $("#roleSelection").show();
+    });
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

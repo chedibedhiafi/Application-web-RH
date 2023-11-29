@@ -1,0 +1,517 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\UI.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\UI.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\Conges.png",
+      "PackagePath": "staticwebassets\\Conges.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\ContreVisite.png",
+      "PackagePath": "staticwebassets\\ContreVisite.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\FonctionEmployee.png",
+      "PackagePath": "staticwebassets\\FonctionEmployee.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\GestionDocument",
+      "PackagePath": "staticwebassets"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\Referentiel.png",
+      "PackagePath": "staticwebassets\\Referentiel.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\absence.png",
+      "PackagePath": "staticwebassets\\absence.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\attestation.png",
+      "PackagePath": "staticwebassets\\attestation.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\download.png",
+      "PackagePath": "staticwebassets\\download.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\employee.png",
+      "PackagePath": "staticwebassets\\employee.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\fonts\\IBMPlexSansArabic-Medium.otf",
+      "PackagePath": "staticwebassets\\fonts\\IBMPlexSansArabic-Medium.otf"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\gestiondocument.png",
+      "PackagePath": "staticwebassets\\gestiondocument.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\mission.png",
+      "PackagePath": "staticwebassets\\mission.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\missionnn.png",
+      "PackagePath": "staticwebassets\\missionnn.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\signature.png",
+      "PackagePath": "staticwebassets\\signature.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\signaturee.png",
+      "PackagePath": "staticwebassets\\signaturee.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\signatureee.png",
+      "PackagePath": "staticwebassets\\signatureee.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\univers.png",
+      "PackagePath": "staticwebassets\\univers.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\2.jpg",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\5xkgvu.jpg",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\5xkgvu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\7ru9mj.jpg",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\7ru9mj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\Application-web-de-gestion-de-ressources-humaines (1).docx",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\Application-web-de-gestion-de-ressources-humaines (1).docx"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\Attestation1002 (1).pdf",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\Attestation1002 (1).pdf"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\Attestation2004.pdf",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\Attestation2004.pdf"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\Attestation_Arabic1.pdf",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\Attestation_Arabic1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\Attestation_Arabic46 (3).pdf",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\Attestation_Arabic46 (3).pdf"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\Attestation_Arabic6004.pdf",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\Attestation_Arabic6004.pdf"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\Conges6030.pdf",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\Conges6030.pdf"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\DEATH_STRANDING_DIRECTORS_CUT_v1.08-Razor1911.torrent",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\DEATH_STRANDING_DIRECTORS_CUT_v1.08-Razor1911.torrent"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\FbvNWTtXgAQzTVg.jpg",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\FbvNWTtXgAQzTVg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\Metal Gear Rising Revengeance v2018-P2P.torrent",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\Metal Gear Rising Revengeance v2018-P2P.torrent"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\Mohamed_Chedi Bedhiafi_CV_ENG.pdf",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\Mohamed_Chedi Bedhiafi_CV_ENG.pdf"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\Screenshot_3.png",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\Screenshot_3.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\WIN_20230531_15_57_23_Pro.jpg",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\WIN_20230531_15_57_23_Pro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\dofus-2021-12-20_15-16-17-Hary-Berserker.png",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\dofus-2021-12-20_15-16-17-Hary-Berserker.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\dofus-2021-12-20_16-41-43-Hary-Berserker.png",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\dofus-2021-12-20_16-41-43-Hary-Berserker.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\dofus-2022-01-04_20-02-07-Hary-Magician.png",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\dofus-2022-01-04_20-02-07-Hary-Magician.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\signature.png",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\signature.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\signaturee.png",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\signaturee.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\signatureee.png",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\signatureee.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsAttestation\\user.png",
+      "PackagePath": "staticwebassets\\uploadsAttestation\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsTypeJustificatif\\370576113_3390801344518900_3706849687649774759_n.gif",
+      "PackagePath": "staticwebassets\\uploadsTypeJustificatif\\370576113_3390801344518900_3706849687649774759_n.gif"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsTypeJustificatif\\Attestation46.pdf",
+      "PackagePath": "staticwebassets\\uploadsTypeJustificatif\\Attestation46.pdf"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsTypeJustificatif\\CAHIER-DE-CHARGESsss.docx",
+      "PackagePath": "staticwebassets\\uploadsTypeJustificatif\\CAHIER-DE-CHARGESsss.docx"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsTypeJustificatif\\Metal Gear Rising Revengeance v2018-P2P.torrent",
+      "PackagePath": "staticwebassets\\uploadsTypeJustificatif\\Metal Gear Rising Revengeance v2018-P2P.torrent"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsTypeJustificatif\\Property-Market (1).docx",
+      "PackagePath": "staticwebassets\\uploadsTypeJustificatif\\Property-Market (1).docx"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsTypeJustificatif\\Screenshot_1.png",
+      "PackagePath": "staticwebassets\\uploadsTypeJustificatif\\Screenshot_1.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsTypeJustificatif\\chedi-cv-1.docx",
+      "PackagePath": "staticwebassets\\uploadsTypeJustificatif\\chedi-cv-1.docx"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsTypeJustificatif\\download.jpg",
+      "PackagePath": "staticwebassets\\uploadsTypeJustificatif\\download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploadsTypeJustificatif\\les diagrammes.docx",
+      "PackagePath": "staticwebassets\\uploadsTypeJustificatif\\les diagrammes.docx"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\1189915.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1189915.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\309379707_740924194499813_855262134331505087_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\309379707_740924194499813_855262134331505087_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\CamScanner 10-15-2022 13.01_6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\CamScanner 10-15-2022 13.01_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\Immobi-Tec-Report-final-internet-2.docx",
+      "PackagePath": "staticwebassets\\uploads\\Immobi-Tec-Report-final-internet-2.docx"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\Metal Gear Rising Revengeance v2018-P2P.torrent",
+      "PackagePath": "staticwebassets\\uploads\\Metal Gear Rising Revengeance v2018-P2P.torrent"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\dofus-2021-12-20_15-16-17-Hary-Berserker.png",
+      "PackagePath": "staticwebassets\\uploads\\dofus-2021-12-20_15-16-17-Hary-Berserker.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\dofus-2021-12-20_16-41-43-Hary-Berserker.png",
+      "PackagePath": "staticwebassets\\uploads\\dofus-2021-12-20_16-41-43-Hary-Berserker.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\dofus-2022-01-04_20-02-07-Hary-Magician.png",
+      "PackagePath": "staticwebassets\\uploads\\dofus-2022-01-04_20-02-07-Hary-Magician.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\fag.png",
+      "PackagePath": "staticwebassets\\uploads\\fag.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\les diagrammes.pdf",
+      "PackagePath": "staticwebassets\\uploads\\les diagrammes.pdf"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\lufy.jpg",
+      "PackagePath": "staticwebassets\\uploads\\lufy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\signaturee.png",
+      "PackagePath": "staticwebassets\\uploads\\signaturee.png"
+    },
+    {
+      "Id": "C:\\Users\\RIDER-3\\Desktop\\.net\\Last\\Examen2023\\UI.Web\\wwwroot\\uploads\\user.png",
+      "PackagePath": "staticwebassets\\uploads\\user.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.UI.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.UI.Web.props",
+      "PackagePath": "build\\UI.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.UI.Web.props",
+      "PackagePath": "buildMultiTargeting\\UI.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.UI.Web.props",
+      "PackagePath": "buildTransitive\\UI.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

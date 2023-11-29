@@ -1,0 +1,117 @@
+﻿@model ApplicationCore.Domain.Conges
+
+@inject ApplicationCore.Interfaces.IServiceEmployees se
+@inject ApplicationCore.Interfaces.IServiceFonctionEmployee sfe
+
+@{
+    ViewData["Title"] = "BFPME360 - Supprimer un congé";
+    bool shouldHideDiv = true;
+    bool shouldHideDivAdmin = true;
+
+    string mail = User.Identity.Name;
+    var employee = se.GetMany().FirstOrDefault(e => e.Email == mail);
+    if (employee == null)
+    {
+        shouldHideDiv = true;
+    }
+    else
+    {
+        var fonction = sfe.GetById(employee.FonctionEmployeeFk);
+        if (fonction.Fonction == "Responsable") { shouldHideDiv = false; }
+        else shouldHideDiv = true;
+    }
+    if (employee == null)
+    {
+        {
+            // Replace "Administrateur" with the actual role name you want to check
+            if (User.IsInRole("Administrateur"))
+            {
+
+                shouldHideDivAdmin = false;
+            }
+        }
+    }
+}
+
+
+
+
+<div>
+    <h4>Supprimer Conges</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CongesId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CongesId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DateDebut)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DateDebut)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DateFin)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DateFin)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TypeCongesFk)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TypeConges.Designation)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Raison)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Raison)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IdEmployees)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Employees.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ConfirmePar)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ConfirmeParEmployee.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.RemplassePar)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RemplasseParEmployee.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.TypeConfirmationFk)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.TypeConfirmation.type)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete" asp-route-id="@Model.CongesId" method="post">
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        @{
+            if (!shouldHideDiv)
+            {
+                <div>
+                    <a asp-action="MesConges">Retour à la liste</a>
+                </div>
+            }
+            else
+            {
+                <div>
+                    <a asp-action="Index">Retour à la liste</a>
+                </div>
+            }
+        }
+    </form>
+</div>
+

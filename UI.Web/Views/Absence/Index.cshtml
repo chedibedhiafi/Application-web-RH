@@ -1,0 +1,110 @@
+﻿@model IEnumerable<ApplicationCore.Domain.Absence>
+@inject ApplicationCore.Interfaces.IServiceEmployees se
+@inject ApplicationCore.Interfaces.IServiceFonctionEmployee sfe
+
+
+@{
+    
+    ViewData["Title"] = "BFPME360 - La liste de toutes les absences";
+
+}
+
+
+<h4>La liste de toutes les absence</h4>
+    <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+    </head>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Créer une nouvelle absence</a>
+</p>
+<body>
+    
+   
+<div class="container" style="margin-top:50px">
+<table id="myTable" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nbAbsence)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TypeJustificatif.Document)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employees.Nom)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nbAbsence)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TypeJustificatif.Document)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Employees.Nom)
+                </td>
+            <td>
+                    @Html.ActionLink("Modifier", "Edit", new {  id=item.AbsenceId  }) |
+             
+                    @Html.ActionLink("Supprimer", "Delete", new {  id=item.AbsenceId  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+       
+
+  
+
+</body>
+
+
+
+<style>
+          
+    .active {
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 20px; /* Adjust the value to control the roundness */
+        padding: 8px 16px; /* Adjust padding for spacing */
+        transition: background-color 0.3s, color 0.3s; /* Add smooth transition */
+    }
+
+    /* Add a hover effect for the navigation links */
+    .nav-link:hover {
+        background-color: #eee;
+        color: #333;
+        border-radius: 20px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+   
+    
+            </style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+<script>
+    $(document).ready(function () {
+        $('#myTable').DataTable({
+            "scrollY": "450px",
+            "scrollCollapse": true,
+            "paging": true,
+            language: {
+        url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/fr-FR.json',
+    },
+        });
+    });</script>
+          
+
+

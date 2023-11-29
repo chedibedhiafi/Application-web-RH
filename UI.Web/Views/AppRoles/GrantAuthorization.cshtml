@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole>
+
+@{
+    ViewData["Title"] = "Grant Authorization";
+}
+
+<h1>
+    Accorder une autorisation pour le rôle : @ViewData["RoleName"]
+</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="selectedUserIds">
+            Sélectionnez les utilisateurs auxquels accorder l'autorisation :
+        </label>
+        <select multiple class="form-control" id="selectedUserIds" name="selectedUserIds">
+            @foreach (var user in ViewData["UsersNotInRole"] as IEnumerable<IdentityUser>) 
+            {
+                <option value="@user.Id">@user.UserName</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">
+        autoriser
+    </button>
+</form>

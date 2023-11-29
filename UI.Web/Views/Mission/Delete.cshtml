@@ -1,0 +1,46 @@
+﻿@model ApplicationCore.Domain.Mission
+
+@{
+    ViewData["Title"] = "BFPME360 - Supprimer une mission";
+}
+
+<h4>Supprimer une mission</h4>
+
+
+<div>
+   
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MissionId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MissionId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateDebut)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateDebut)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateFin)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateFin)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        <a asp-action="Index">
+            Retour à la liste
+        </a>
+    </form>
+</div>

@@ -1,0 +1,84 @@
+﻿@model ApplicationCore.Domain.ContreVisite
+@inject ApplicationCore.Interfaces.IServiceEmployees se
+
+@{
+    ViewData["Title"] = "BFPME360 - Créer une contre visite";
+}
+@{
+    string mail = User.Identity.Name;
+    var employee = se.GetMany().FirstOrDefault(e => e.Email == mail);
+}
+
+<h1>
+    Créer une Contre visite
+</h1>
+<h4>Contre visite</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Date" class="control-label">
+                    Date<span class="text-danger">*</span>
+                </label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EffectuerPar" class="control-label">
+                    Effectué Par<span class="text-danger">*</span>
+                </label>
+                <select asp-for="EffectuerPar" class="form-control" asp-items="ViewBag.EffectuerPar"></select>
+                <span asp-validation-for="EffectuerPar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Avis" class="control-label">
+
+                </label>
+                <input asp-for="Avis" class="form-control" />
+                <span asp-validation-for="Avis" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Details" class="control-label">
+
+                </label>
+                <input asp-for="Details" class="form-control" />
+                <span asp-validation-for="Details" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NomDoc" class="control-label">
+
+                </label>
+                <input asp-for="NomDoc" class="form-control" />
+                <span asp-validation-for="NomDoc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CongesFk" class="control-label">
+                    Congé<span class="text-danger">*</span>
+                </label>
+                <select asp-for="CongesFk" class="form-control" asp-items="ViewBag.Conge"></select>
+                <span asp-validation-for="CongesFk" class="text-danger"></span>
+            </div>
+
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

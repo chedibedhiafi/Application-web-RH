@@ -1,0 +1,40 @@
+﻿@model ApplicationCore.Domain.Absence
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h4>Supprimer Absence</h4>
+
+
+<div>
+   
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AbsenceId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AbsenceId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.nbAbsence)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nbAbsence)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TypeJustificatifFk)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TypeJustificatif.type)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">
+            Retour à la liste
+        </a>
+    </form>
+</div>

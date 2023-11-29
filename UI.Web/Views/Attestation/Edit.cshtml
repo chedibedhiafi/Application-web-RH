@@ -1,0 +1,74 @@
+﻿@model ApplicationCore.Domain.Attestation
+
+@{
+    ViewData["Title"] = "BFPME360 - Modifier une attestation";
+}
+
+<h4>Modifier une attestation</h4>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea class="form-control" id="Description" name="Description" rows="40">
+        [Logo de l'organisme (le cas échéant)]
+        [Adresse de l'organisme]
+        [Téléphone de l'organisme]
+        [Adresse e-mail de l'organisme]
+        [Site web de l'organisme]
+
+        Attestation de Présence
+
+        Je soussigné(e), [Prénom et Nom de l'organisateur], en tant qu'organisateur de l'événement [Nom de l'événement], déclare par la présente que :
+
+        Nom du Participant : [Prénom et Nom du participant]
+        Date de l'événement : [Date de l'événement]
+        Heure de début : [Heure de début]
+        Heure de fin : [Heure de fin]
+        Lieu : [Lieu de l'événement]
+
+        Le(la) susnommé(e) a participé à l'événement mentionné ci-dessus en tant que participant(e). Cette attestation est délivrée à la demande du participant et est conforme à la réalité.
+
+        Fait à [Lieu de délivrance de l'attestation], le [Date de délivrance de l'attestation].
+
+        Signature de l'Organisateur : _____________________
+        (Signature manuscrite ou électronique)
+
+        Cachet de l'Organisme : [Cachet de l'organisme, le cas échéant]
+
+        N'oubliez pas d'adapter ce modèle en fonction des détails spécifiques de l'événement, de l'organisme et des informations requises. Assurez-vous également de respecter les normes et les procédures en vigueur pour la délivrance d'attestations officielles.
+    </textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+          
+            <div class="form-group">
+                <label asp-for="DocumentAttestation" class="control-label"></label>
+                <input type="file" name="DocumentUpload" class="form-control" />
+                <span asp-validation-for="DocumentAttestation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TypeAttestation" class="control-label">
+                    Type de l'attestation<span class="text-danger">*</span>
+                </label>
+                <select asp-for="TypeAttestationFk" class="form-control" asp-items="ViewBag.TypeAttestation"></select>
+                <span asp-validation-for="TypeAttestationFk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sauvegarder" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Retour à la liste</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

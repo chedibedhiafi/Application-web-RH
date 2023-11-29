@@ -1,0 +1,24 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole> 
+
+@{
+    ViewData["Title"] = "Revoke Authorization";
+}
+
+<h1>Révoquer l'autorisation pour le rôle : @ViewData["RoleName"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="selectedUserIds">Sélectionnez les utilisateurs pour révoquer l'autorisation :</label>
+        <select multiple class="form-control" id="selectedUserIds" name="selectedUserIds">
+            @foreach (var user in ViewData["UsersInRole"] as IEnumerable<IdentityUser>) 
+            {
+                <option value="@user.Id">@user.UserName</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-danger">
+        
+        Révoquer l'autorisation
+    </button>
+</form>

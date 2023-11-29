@@ -1,0 +1,200 @@
+﻿@model IEnumerable<ApplicationCore.Domain.Employees>
+@using Microsoft.AspNetCore.Identity
+
+@inject ApplicationCore.Interfaces.IServiceEmployees se
+@inject ApplicationCore.Interfaces.IServiceFonctionEmployee sfe
+
+@{
+   /* bool shouldHideDiv = true;
+    bool shouldHideDivAdmin = true;
+
+    string mail = User.Identity.Name;
+    var employee = se.GetMany().FirstOrDefault(e => e.Email == mail);
+    if (employee == null)
+    {
+        shouldHideDiv = true;
+    }
+    else
+    {
+        var fonction = sfe.GetById(employee.FonctionEmployeeFk);
+        if (fonction.Fonction == "Responsable") { shouldHideDiv = false; }
+        else shouldHideDiv = true;
+    }*/
+    ViewData["Title"] = "UNIVERS-MED  - La liste de tous les employés";
+}
+
+<h4>La liste de tous les employés</h4>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Créer</a>
+
+</p>
+
+
+<body>
+    <table class="table" id="myTable">
+    <thead>
+        <tr>
+           
+                <th>
+                    @Html.DisplayNameFor(model => model.Matricule)
+                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Genre.NomGenre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FonctionEmployee.Fonction)
+            </th>
+          
+            
+                <th>
+                    @Html.DisplayNameFor(model => model.Cin)
+                </th>
+            <th class="nom-column">
+                @Html.DisplayNameFor(model => model.Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomArabe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prenom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrenomArabe)
+            </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateDeNaissance)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Situation.nomSituation)
+            </th>
+          
+            <th>
+                @Html.DisplayNameFor(model => model.CreditConges)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Photo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Section.NomSection)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartedAt)
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+              
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Matricule)
+                    </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genre.NomGenre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FonctionEmployee.Fonction)
+                </td>
+              
+                    
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Cin)
+                    </td>
+                <td class="nom-column">
+                    @Html.DisplayFor(modelItem => item.Nom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomArabe)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Prenom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PrenomArabe)
+                </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateDeNaissance)
+                </td>
+             
+                <td>
+                    @Html.DisplayFor(modelItem => item.Situation.nomSituation)
+                </td>
+              
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreditConges)
+                </td>
+              
+                <td>
+                    <img src="~/uploads/@item.Photo" width="50" height="50" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Section.NomSection)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartedAt)
+                </td>
+                <td>
+                    @Html.ActionLink("Modifier", "Edit", new { id = item.id })
+                    @Html.ActionLink("Supprimer", "Delete", new { id = item.id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</body>
+
+
+<style>
+    .active {
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 20px; /* Adjust the value to control the roundness */
+        padding: 8px 16px; /* Adjust padding for spacing */
+        transition: background-color 0.3s, color 0.3s; /* Add smooth transition */
+    }
+
+    /* Add a hover effect for the navigation links */
+    .nav-link:hover {
+        background-color: #eee;
+        color: #333;
+        border-radius: 20px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    </style>
+  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+<script>
+    $(document).ready(function () {
+        if (!$.fn.DataTable.isDataTable('#myTable')) {
+            $('#myTable').DataTable({
+                scrollX: true,
+                fixedHeader: true,
+                // Other DataTables options you might want to configure
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/fr-FR.json',
+                },
+            });
+        }
+    });</script>

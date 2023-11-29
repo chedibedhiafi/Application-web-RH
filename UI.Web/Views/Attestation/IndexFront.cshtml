@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ApplicationCore.Domain.TypeAttestation>
+
+@{
+    ViewData["Title"] = "BFPME360 - Liste des Attestatoins possibles";
+}
+
+<h1>Liste des Attestatoins possibles</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Créer une demande d'attestation</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contenu)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Contenu)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

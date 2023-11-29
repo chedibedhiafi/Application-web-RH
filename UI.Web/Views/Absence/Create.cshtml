@@ -1,0 +1,59 @@
+﻿@model ApplicationCore.Domain.Absence
+
+@{
+    ViewData["Title"] = "Create";
+    var typeJustificatifList = (IEnumerable<ApplicationCore.Domain.TypeJustificatif>)ViewBag.TypeJustificatifList;
+}
+
+<h4>
+    Créer
+    Absence
+</h4>
+<a href="/Home/Index" class="btn btn-primary">Home</a>
+
+
+<h4>Absence</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="nbAbsence" class="control-label">
+                    nbAbsence<span class="text-danger">*</span>
+                </label>
+                <input asp-for="nbAbsence" class="form-control" />
+                <span asp-validation-for="nbAbsence" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TypeJustificatif" class="control-label">
+                    TypeJustificatif<span class="text-danger">*</span>
+                </label>
+                <select asp-for="TypeJustificatifFk" class="form-control" asp-items="ViewBag.TypeJustificatifFk"></select>
+                <span asp-validation-for="TypeJustificatifFk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Employees" class="control-label">
+                    Emplyees<span class="text-danger">*</span>
+                </label>
+                <select asp-for="EmplyeesFk" class="form-control" asp-items="ViewBag.EmplyeesFk"></select>
+                <span asp-validation-for="EmplyeesFk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

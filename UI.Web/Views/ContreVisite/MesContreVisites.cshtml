@@ -1,0 +1,151 @@
+﻿@model IEnumerable<ApplicationCore.Domain.ContreVisite>
+@inject ApplicationCore.Interfaces.IServiceEmployees se
+@inject ApplicationCore.Interfaces.IServiceFonctionEmployee sfe
+
+@{
+    bool shouldHideDiv = true;
+    bool shouldHideDivAdmin = true;
+
+    string mail = User.Identity.Name;
+    var employee = se.GetMany().FirstOrDefault(e => e.Email == mail);
+    if (employee == null)
+    {
+        shouldHideDiv = true;
+    }
+    else
+    {
+        var fonction = sfe.GetById(employee.FonctionEmployeeFk);
+        if (fonction.Fonction == "Responsable") { shouldHideDiv = false; }
+        else shouldHideDiv = true;
+    }
+    if (employee == null)
+    {
+        {
+            // Replace "Administrateur" with the actual role name you want to check
+            if (User.IsInRole("Administrateur"))
+            {
+
+                shouldHideDivAdmin = false;
+            }
+        }
+    ViewData["Title"] = "BFPME360 - La liste de mes contres visites";
+}}
+
+<h4>La liste de mes contres visites</h4>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Créer</a>
+</p>
+<body>
+    <table class="table" id="myTable">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Employees.Nom)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Avis)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Details)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NomDoc)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Etat)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DoneOrNot)
+                </th>
+                <th>
+                    Congé associé
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Employees.Nom)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Avis)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Details)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NomDoc)
+                    </td>
+                    <td>
+                        @if (item.Etat)
+                        {
+                            @Html.CheckBoxFor(modelItem => item.Etat, new { @disabled = "disabled" })
+                        }
+                    </td>
+                    <td>
+                        @if (item.DoneOrNot)
+                        {
+                            @Html.CheckBoxFor(modelItem => item.DoneOrNot, new { @disabled = "disabled" })
+                        }
+                    </td>
+                    <td>
+                        @ViewBag.FormattedConges[Model.ToList().IndexOf(item)]
+                    </td>
+
+                    <td>
+                        @Html.ActionLink("Modifier", "Edit", new {  id=item.ContreVisiteId  }) |
+
+                        @Html.ActionLink("Supprimer", "Delete", new {  id=item.ContreVisiteId  })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+
+<style>
+    .active {
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 20px; /* Adjust the value to control the roundness */
+        padding: 8px 16px; /* Adjust padding for spacing */
+        transition: background-color 0.3s, color 0.3s; /* Add smooth transition */
+    }
+
+    /* Add a hover effect for the navigation links */
+    .nav-link:hover {
+        background-color: #eee;
+        color: #333;
+        border-radius: 20px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#myTable').DataTable({
+            "scrollY": "450px",
+            "scrollCollapse": true,
+            "paging": true,
+            language: {
+                url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/fr-FR.json',
+            },
+        });
+    });</script>
